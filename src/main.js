@@ -2,7 +2,7 @@
 import policy from './json-extractor-policy';
 
 export default {
-  version: 'v1.0', //plugin engine version
+  version: '1.2.0', //plugin engine version
   init: function (pluginContext) {
     pluginContext.registerPolicy(policy);
     console.log('json-extractor-policy registered');
