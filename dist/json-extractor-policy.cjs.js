@@ -4,6 +4,7 @@ var policy = {
     name: 'json-extractor',
     policy: function policy(actionParams) {
         return function (req, res, next) {
+            debugger;
             // eslint-disable-next-line no-console
             console.log('executing policy with ES6 code of json-extractor plugin', actionParams);
             console.log('Json path param: ', actionParams.jsonPath);
